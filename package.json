@@ -1,7 +1,7 @@
 {
   "name": "marketplace_rendezvous",
-  "version": "0.0.3",
-  "description": "Marketplace Rendezvous",
+  "version": "0.0.4",
+  "description": "Decentralized Marketplace Rendezvous Server (PoC)",
   "scripts": {
     "run": "./node_modules/.bin/rendezvous --port=9090 --host=127.0.0.1"
   },
@@ -15,5 +15,9 @@
   "author": "Vi+ <vitaliyy@gmail.com>",
   "dependencies": {
     "libp2p-websocket-star-rendezvous": "^0.2.3"
+  },
+  "engines": {
+    "node": ">=8.8.0",
+    "npm": ">=5.6.0"
   }
 }
