@@ -1,9 +1,9 @@
 {
   "name": "marketplace_rendezvous",
-  "version": "0.0.4",
-  "description": "Decentralized Marketplace Rendezvous Server (PoC)",
+  "version": "0.0.11",
+  "description": "Marketplace Rendezvous Server (PoC)",
   "scripts": {
-    "run": "./node_modules/.bin/rendezvous --port=9090 --host=127.0.0.1"
+    "run": "./node_modules/.bin/rendezvous --port=61617 --host=127.0.0.1"
   },
   "keywords": [
     "decentralized",
